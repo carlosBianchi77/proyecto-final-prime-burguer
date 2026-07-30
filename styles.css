@@ -43,7 +43,7 @@ body {
   --bs-btn-active-bg: #1b1d24;                  /* Fondo al hacer click (oscuro más profundo) */
   --bs-btn-active-border-color: #1b1d24;        /* Borde al hacer click */
   --bs-btn-focus-shadow-rgb: 204, 170, 75;      /* Color del resplandor de foco (accesibilidad de teclado) */
-  font-weight: 600;     /* Texto un poco más grueso para destacar el CTA */
+  font-weight: 600;     /* Texto un poco más grueso */
   letter-spacing: .02em; /* Pequeño espaciado entre letras */
 }
 
@@ -57,10 +57,9 @@ body {
   --bs-navbar-brand-color: var(--color-blanco);       /* Color del logo textual */
   --bs-navbar-brand-hover-color: var(--color-naranja); /* Color del logo al pasar el mouse */
   --bs-navbar-toggler-border-color: rgba(255,255,255,.25); /* Borde del botón hamburguesa */
-  /* background-color: rgb(51, 46, 46); */ /* Fondo del menú completo */
   background-color: var(--color-oscuro);
-  padding-top: .9rem;    /* Aire arriba del contenido del navbar */
-  padding-bottom: .9rem; /* Aire abajo del contenido del navbar */
+  padding-top: .9rem;   
+  padding-bottom: .9rem; 
 }
 
 .logo__accent {
@@ -109,22 +108,22 @@ body {
 }
 
 .section__title {
-  color: var(--color-naranja); /* Los títulos de sección usan el color oscuro de marca */
-  font-weight: 700; /* Peso fuerte para jerarquía visual */
-  margin-bottom: 2rem; /* Separación respecto al contenido de la sección */
-  text-align: center; /* Centrado dentro del container */
+  color: var(--color-naranja); 
+  font-weight: 700; 
+  margin-bottom: 2rem; 
+  text-align: center; 
 }
 
 .service-card {
-  display: flex;             /* Flexbox para poder alinear imagen + cuerpo en columna */
-  flex-direction: column;     /* Imagen arriba, cuerpo de texto abajo */
-  height: 100%;               /* Todas las tarjetas de la fila igualan su altura */
-  background-color: var(--color-blanco); /* Fondo blanco de la tarjeta */
-  border: 1px solid #e7e5e1;  /* Borde sutil */
-  border-radius: .6rem;       /* Bordes redondeados */
+  display: flex;             
+  flex-direction: column;     
+  height: 100%;              
+  background-color: var(--color-blanco); 
+  border: 1px solid #e7e5e1;  
+  border-radius: .6rem;      
   overflow: hidden;           /* La imagen no se sale de los bordes redondeados */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, .06); /* Sombra suave para dar profundidad */
-  transition: transform .2s ease, box-shadow .2s ease; /* Transición suave para el hover */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, .06); 
+  transition: transform .2s ease, box-shadow .2s ease; 
 }
 
 .service-card {
@@ -162,19 +161,19 @@ body {
   display: flex;           /* Flexbox también dentro del cuerpo de texto */
   flex-direction: column;  /* Título, texto y botón apilados verticalmente */
   flex: 1 1 auto;          /* El cuerpo ocupa todo el espacio restante de la tarjeta */
-  padding: 1.5rem;         /* Aire interno del cuerpo */
+  padding: 1.5rem;         
 }
 
 .service-card__title {
-  color: var(--color-oscuro); /* Título en el color oscuro de marca */
-  font-weight: 600;           /* Peso semi-fuerte */
-  margin-bottom: .6rem;       /* Separación respecto al texto descriptivo */
+  color: var(--color-oscuro); 
+  font-weight: 600;           
+  margin-bottom: .6rem;       
 }
 
 .service-card__text {
   color: var(--color-gris);  /* Texto secundario en gris */
   flex: 1 1 auto;            /* Empuja el botón hacia abajo si el texto es corto */
-  margin-bottom: 1.25rem;    /* Separación respecto al botón */
+  margin-bottom: 1.25rem;    
 }
 
 .service-card__btn {
@@ -191,7 +190,7 @@ body {
   background-size: 280px;
   background-repeat: no-repeat;
   background-position: center;
-  color: var(--color-blanco);            /* Texto en blanco sobre el fondo oscuro */
+  color: var(--color-blanco);   /* Texto en blanco sobre el fondo oscuro */
   padding-top: 3rem;    /* Aire superior del footer */
   padding-bottom: 2rem; /* Aire inferior del footer */
 }
@@ -199,19 +198,19 @@ body {
 .site-footer .navbar-brand {
   color: var(--color-blanco); /* Logo en blanco dentro del footer */
   display: inline-block;      /* Para que el margin-bottom funcione correctamente */
-  margin-bottom: .75rem;      /* Separación respecto al texto descriptivo */
+  margin-bottom: .75rem;     
 }
 
 .site-footer__text {
   color: rgba(255, 255, 255, 0.75); /* Texto secundario, blanco atenuado */
-  font-size: .95rem; /* Levemente más chico que el texto base */
+  font-size: .95rem; 
 }
 
 .site-footer__title {
-  color: var(--color-naranja); /* Subtítulos de columna en dorado, para jerarquía */
-  font-size: 1.05rem; /* Tamaño moderado, no compite con el h1 del hero */
-  font-weight: 600;   /* Peso semi-fuerte */
-  margin-bottom: 1rem; /* Separación respecto a la lista debajo */
+  color: var(--color-naranja); /* Subtítulos de columna en naranja, para jerarquía */
+  font-size: 1.05rem; 
+  font-weight: 600;  
+  margin-bottom: 1rem; 
 }
 
 .site-footer__links li {
@@ -220,33 +219,33 @@ body {
 
 .site-footer__links a {
   color: rgba(255, 255, 255, 0.8); /* Color de los enlaces del footer */
-  text-decoration: none;           /* Sin subrayado por defecto */
+  text-decoration: none;         
 }
 
 .site-footer__links a:hover {
-  color: var(--color-naranja); /* Color dorado al pasar el mouse, coherente con el navbar */
+  color: var(--color-naranja); /* Color naranja al pasar el mouse, coherente con el navbar */
   text-decoration: underline; /* Subrayado en hover para reforzar que es interactivo */
 }
 
 .site-footer__social a {
-  color: var(--color-blanco); /* Íconos en blanco por defecto */
+  color: var(--color-blanco); 
   font-size: 1.3rem;          /* Tamaño cómodo para tocar en mobile */
   display: inline-block;      /* Permite aplicar transform sin romper el flujo */
-  transition: color .2s ease, transform .2s ease; /* Transición suave en hover */
+  transition: color .2s ease, transform .2s ease; 
 }
 
 .site-footer__social a:hover {
-  color: var(--color-naranja);  /* Ícono dorado en hover */
-  transform: translateY(-2px); /* Pequeño efecto de "levantamiento" */
+  color: var(--color-naranja);  
+  transform: translateY(-2px);
 }
 
 .site-footer__copy {
-  border-top: 1px solid rgba(255, 255, 255, 0.15); /* Línea divisoria sutil */
-  color: rgba(255, 255, 255, 0.6); /* Texto legal bien atenuado */
-  font-size: .85rem;   /* Texto pequeño, típico de línea de copyright */
-  margin-top: 2rem;    /* Separación respecto a las columnas de arriba */
-  padding-top: 1.5rem; /* Aire respecto a la línea divisoria */
-  text-align: center;  /* Centrado en toda la fila */
+  border-top: 1px solid rgba(255, 255, 255, 0.15); 
+  color: rgba(255, 255, 255, 0.6); 
+  font-size: .85rem;  
+  margin-top: 2rem;    
+  padding-top: 1.5rem; 
+  text-align: center;  
 }
 
 
