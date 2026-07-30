@@ -43,7 +43,7 @@ body {
   --bs-btn-active-bg: #1b1d24;                  /* Fondo al hacer click (oscuro más profundo) */
   --bs-btn-active-border-color: #1b1d24;        /* Borde al hacer click */
   --bs-btn-focus-shadow-rgb: 204, 170, 75;      /* Color del resplandor de foco (accesibilidad de teclado) */
-  font-weight: 600;     /* Texto un poco más grueso */
+  font-weight: 600;     /* Texto un poco más gruesoñ */
   letter-spacing: .02em; /* Pequeño espaciado entre letras */
 }
 
